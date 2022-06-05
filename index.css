@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 40px;
+    filter: opacity(0.8);
+    transition: 0.2s;
+}
+
+header img:hover {
+    transform:scale(1.2);
+    transition: 0.3s;
+}
+
+header li {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    left: 340px;
+}
+
+header li ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+header li ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header li ul:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#right {
+    font-size: 20px;
+    margin-left: auto;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#right p {
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#sign-in {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 2px;
+    padding: 5px 8px;
+}
+
+#sign-up {
+    color:black;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    border-style: solid;
+    border-color: orange;
+}
+
+#flag2 {
+    width: 150px;
+    display: block;
+    margin: 40px auto auto auto;
+    transition: 0.2s;
+}
+
+#flag2:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color:rgb(240, 234, 234);
+    margin-bottom: 10px;
+}
+
+#p {
+    font-size: 35px;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 70px;
+    color: rgb(240, 234, 234);
+}
+
+#section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#stories {
+    border-color: rgba(240, 234, 234, 0.562);
+    background-color: rgba(240, 234, 234, 0.212);
+    border-style: solid;
+    width: 280px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-inline: 30px;
+    transition: 0.3s;
+}
+
+#stories:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    transition
+}
+
+#flame {
+    display: inline;
+    width: 30px;
+}
+
+#stories p {
+    display: inline;
+    font-size: 30px;
+}
+
+#stories p a {
+    text-decoration: none;
+    color: black;
+}
+
+#sign {
+    border-style: solid;
+    width: 400px;
+    border-radius: 3px;
+    background-color: #4267B2;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+#sign:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#facebook {
+    width: 30px;
+    display: inline;
+}
+
+#sign p {
+    display: inline;
+    font-size: 30px;
+}
+
+#sign p a {
+    text-decoration: none;
+    color: black;
+}
+
+#download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#appstore {
+    width: 300px;
+}
+
+#playstore {
+    width: 300px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(240, 234, 234);
+}
